@@ -3,7 +3,7 @@ Program: Coupon Calculation.py
 Author:  Ondrea Li
 Date: 6/10/20
 
-The purpose of this program is
+The purpose of this program is to input validation to make user_input positive
 """
 NUMBER_TEST = 1
 def average():
