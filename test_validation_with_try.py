@@ -14,7 +14,7 @@ class MyTestCase(unittest.TestCase):
 #my class definitions
     def test_average(self):
          with mock.patch('builtins.input', side_effect=[85,90,95]):
-            assert vwt.average() == 90
+            assert vwt.average(85,90,95) == 90
 
     def test_average_exception(self):
          with self.assertRaises(ValueError):
