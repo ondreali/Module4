@@ -88,7 +88,7 @@ final_price = calculate_pricefn(type_of_discount(type_of_cash_coupon(initial_cos
 
 
 if __name__ == '__main__':
-    pass
+    passs
 
 
 
