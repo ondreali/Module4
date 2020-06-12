@@ -34,7 +34,7 @@ def average(score1, score2, score3):
             print("score needs to be a positive integer")
             raise ValueError
     except:
-        print("count not convert")
+        print("score not convert")
         raise ValueError
 
     return float((score1 + score2 + score3)/NUMBER_TESTS)
